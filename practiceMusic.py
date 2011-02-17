@@ -63,7 +63,7 @@ lvl = raw_input(level)
 random_type = randint(0, len(types)-1)
 random_space_line = randint(0, len(space_line)-1)
 random_space = randint(0, len(space)-1)
-random_line = randint(0, len(types)-1)
+random_line = randint(0, len(line)-1)
 
 count = int(raw_input('How many questions? '))
 
@@ -73,7 +73,7 @@ while c < count:
 	random_type = randint(0, len(types)-1)
 	random_space_line = randint(0, len(space_line)-1)
 	random_space = randint(0, len(space)-1)
-	random_line = randint(0, len(types)-1)
+	random_line = randint(0, len(line)-1)
 
 	
 	question = '%s %s # ' % (
