@@ -20,7 +20,7 @@ Visual Identification
 bass_line = {
 	'one':'g',
 	'two':'b',
-	'three':'f',
+	'three':'d',
 	'four':'f',
 	'five':'a',
 }
